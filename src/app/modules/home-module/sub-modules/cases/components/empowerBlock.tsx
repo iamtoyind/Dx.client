@@ -46,7 +46,7 @@ export default function EmpowerBlock(props: { alternativeText?: boolean }) {
       <div>
         <Link to="/report/new/initial">
           <HomePrimaryButton color="#6061E5" type="button">
-            CREATE REPORT
+            CREATE REPORT 
           </HomePrimaryButton>
         </Link>
         <HomePrimaryButton color="#E492BD" type="button">

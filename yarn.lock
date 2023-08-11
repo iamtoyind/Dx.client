@@ -1834,6 +1834,20 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.5.tgz#db5a11bf66bdab39569719555b0f76e138d7bd64"
   integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
 
+"@rawgraphs/rawgraphs-charts@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@rawgraphs/rawgraphs-charts/-/rawgraphs-charts-1.0.1.tgz#0c713fbbaca4daaee38a417a184ba1f9196958dd"
+  integrity sha512-bSykr/MgPlEWu3XZJO8i9lvWkSox/pLcqgxJPHbSTqxFV/WjKZEIS3rq2vATczgud+ke5nfiGyrSuNcgmnJrqg==
+  dependencies:
+    d3 "^7.2.0"
+    d3-contour "^3.0.1"
+    d3-gridding "^0.2.0"
+    d3-hexbin "^0.2.2"
+    d3-sankey "^0.12.3"
+    d3-sankey-circular "^0.34.0"
+    d3-voronoi-treemap "^1.1.1"
+    louvain "^1.2.0"
+
 "@rawgraphs/rawgraphs-core@^1.0.0-beta.17":
   version "1.0.0-beta.17"
   resolved "https://registry.yarnpkg.com/@rawgraphs/rawgraphs-core/-/rawgraphs-core-1.0.0-beta.17.tgz#8fc861645369126d93e6e0cf2606cd883be5005d"
@@ -5935,13 +5949,13 @@ ecdsa-sig-formatter@1.0.11:
   dependencies:
     safe-buffer "^5.0.1"
 
-echarts@^5.4.2:
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/echarts/-/echarts-5.4.2.tgz#9f38781c9c6ae323e896956178f6956952c77a48"
-  integrity sha512-2W3vw3oI2tWJdyAz+b8DuWS0nfXtSDqlDmqgin/lfzbkB01cuMEN66KWBlmur3YMp5nEDEEt5s23pllnAzB4EA==
+echarts@^5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/echarts/-/echarts-5.4.3.tgz#f5522ef24419164903eedcfd2b506c6fc91fb20c"
+  integrity sha512-mYKxLxhzy6zyTi/FaEbJMOZU1ULGEQHaeIeuMR5L+JnJTpz+YR03mnnpBhbR4+UYJAgiXgpyTVLffPAjOTLkZA==
   dependencies:
     tslib "2.3.0"
-    zrender "5.4.3"
+    zrender "5.4.4"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -13947,10 +13961,10 @@ zip-stream@^4.1.0:
     compress-commons "^4.1.0"
     readable-stream "^3.6.0"
 
-zrender@5.4.3:
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/zrender/-/zrender-5.4.3.tgz#41ffaf835f3a3210224abd9d6964b48ff01e79f5"
-  integrity sha512-DRUM4ZLnoaT0PBVvGBDO9oWIDBKFdAVieNWxWwK0niYzJCMwGchRk21/hsE+RKkIveH3XHCyvXcJDkgLVvfizQ==
+zrender@5.4.4:
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/zrender/-/zrender-5.4.4.tgz#8854f1d95ecc82cf8912f5a11f86657cb8c9e261"
+  integrity sha512-0VxCNJ7AGOMCWeHVyTrGzUgrK4asT4ml9PEkeGirAkKNYXYzoPJCLvmyfdoOXcjTHPs10OZVMfD1Rwg16AZyYw==
   dependencies:
     tslib "2.3.0"
 

@@ -23,6 +23,7 @@ import { MobileAppbarSearch } from "app/components/Mobile/AppBarSearch";
 import { NavLink, useLocation, useHistory, Link } from "react-router-dom";
 import { Grid, Popover } from "@material-ui/core";
 
+
 const TextHeader = (label: string) => (
   <h2
     css={`
@@ -403,7 +404,7 @@ const ActionMenu = () => {
             <button>Add Data</button>
           </Link>
 
-          <Link to="/chart/new/data" onClick={handleCloseActionPopover}>
+          <Link to="/create-chart" onClick={handleCloseActionPopover}>
             <button>Create Chart</button>
           </Link>
         </div>
